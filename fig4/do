@@ -1,0 +1,21 @@
+#!/bin/bash
+
+rm *.out plot.png
+
+./spiral_arms_now.py
+./spiral_arms_earlier.py 64
+./spiral_arms_earlier.py 113
+./spiral_arms_earlier.py 175
+
+./generate_64Myr.py
+./generate_113Myr.py
+./generate_175Myr.py
+
+./evolve.py generate_64Myr.out
+./evolve.py generate_113Myr.out
+./evolve.py generate_175Myr.out
+
+./plot.py
+if [ -e plot.png ]; then
+  echo "plot.png created"
+fi

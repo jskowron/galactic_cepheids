@@ -7,7 +7,7 @@ from os.path import splitext
 
 #  parameter units:    pc  deg
 from parameters import R0, psi, arm_names, pattern_period
-from functions import projectG
+from functions import project
 
 if len(sys.argv) <= 1:
   print('Provide time in Myrs (eg.: 0 - now, 100 - hundred million years earlier than now')
@@ -36,8 +36,8 @@ with open(filename, 'w') as outfile:
   for i, phi0 in enumerate(arange(0, 360, 90) + 70 + pattern_rot):
     p = phi0 + linspace(0, 400.0, 60)
     R = R0 * exp(  (p - phi0) / 180.0 * pi * tan(psi / 180. * pi))
-    x1, y1 = projectG(p, R)
+    x1, y1 = project(p, R)
     outfile.write('# arm %d  phi0 = %8.3f  %s\n'%(i, phi0, arm_names[i]))
-    for row in c_[x1, y1, R * 0.001, p]:
+    for row in c_[x1 * 0.001, y1 * 0.001, R * 0.001, p]:
       outfile.write('%9.4f %9.4f  %9.4f %9.4f\n'%tuple(row))
 
