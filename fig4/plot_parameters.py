@@ -7,4 +7,6 @@ simulation_ages = [64, 113, 175]
 simulation_colors = ['#872063', '#1279a6', '#5f9400']
 axis_view = [20, -20, -20 + 8.3, 20 + 8.3]
 figsize=(7, 10)
+figsize2=(11, 10)
 star_marker_params = {'s':7, 'alpha': 0.4, 'marker': 'o', 'edgecolors': 'none'}
+gal_cepheids_marker_params = {'color': 'k', 's':7, 'alpha': 0.4, 'marker': 'o', 'edgecolors': 'none'}

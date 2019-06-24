@@ -8,4 +8,4 @@ Use [generate_64Myr.py](../fig4/generate_64Myr.py) to generate an example of a s
 
 The [evolve.py](../fig4/evolve.py) program will rotate the generated sample of stars from the past until current time. Provide generate\_\*.out file as an argument. See [do](../fg4/do) script for the example of use. 
 
-
+The [plot.py](./plot.py) and [plot2.py](./plot2.py) scripts plot the simulations. The second script also takes the real data (from galactic\_cepheids\_*.dat files) and presents them along the simulations.
