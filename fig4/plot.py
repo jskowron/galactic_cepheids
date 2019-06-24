@@ -9,7 +9,8 @@ from collections import defaultdict
 from parameters import arm_names
 import plot_parameters # arm_names_abr, arm_colors, arm_symbol, arm_symbol_size, axis_view
 
-
+plt.rcParams['axes.titlesize'] = 10
+numerals = ['1st', '2nd', '3rd', '4th', '5th', '6th' ]
 # Uses:
 #   spiral_arms_now.out
 #   spiral_arms_earlier_64.out
@@ -87,6 +88,9 @@ for row, age in enumerate(plot_parameters.simulation_ages):
 
   ax[row, 0].scatter(pos_at_birth.T[1], pos_at_birth.T[0], c=plot_parameters.simulation_colors[row], **plot_parameters.star_marker_params)
   ax[row, 1].scatter(pos_now.T[1],      pos_now.T[0],      c=plot_parameters.simulation_colors[row], **plot_parameters.star_marker_params)
+
+  ax[row, 0].set_title('Simulated birth %.0f Myrs ago'%(age))
+  ax[row, 1].set_title('Evolved to the current epoch')
 
   for col in [0, 1]:
     ax[row, col].set_xlim(*plot_parameters.axis_view[:2])
