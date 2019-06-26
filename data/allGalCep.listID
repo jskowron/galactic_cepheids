@@ -1,0 +1,70 @@
+#Source              Name                      RA(2000.0)   Dec(2000.0)  RA[deg]    Dec[deg]    l[deg]    b[deg]     Mode(s)  P_F[day]   P_1O[day]  P_2O[day]  P_3O[day]  Bands OGLE              OGLE-II           OGLE-III          OGLE-IV           ASAS           ASAS-SN  ATLAS               AAVSO     GAIA DR2             WISE            
+#**************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+OGLE-IV              OGLE-BLG-CEP-058          17:38:40.33  -27:23:42.7  264.668042 -27.395194    0.50243   2.11348  1O       0          4.4882058  0          0          I     OGLE-BLG-CEP-058  -                 -                 BLG675.15.135475  -              -        -                   -         -                    -               
+OGLE-IV              OGLE-BLG-CEP-059          17:38:58.04  -27:34:32.6  264.741833 -27.575722    0.38447   1.96189  1O2O     0          0.3494682  0.2764790  0          I     OGLE-BLG-CEP-059  -                 -                 BLG675.15.42211   -              -        -                   -         -                    -               
+OGLE-IV              OGLE-BLG-CEP-063          17:39:59.93  -27:45:12.3  264.999708 -27.753417    0.35541   1.67398  1O       0          1.3795193  0          0          I     OGLE-BLG-CEP-063  -                 -                 BLG675.05.105361  -              -        -                   -         -                    -               
+2MASS                J08253562-3920085         08:25:35.62  -39:20:08.5  126.398417 -39.335694  257.76556  -0.80907  F        3.0747618  0          0          0          I     OGLE-GD-CEP-0219  -                 -                 GD1518.06.103     -              -        -                   -         -                    J082535.6-392008
+OGLE-IV              OGLE-BLG-CEP-065          17:40:58.69  -28:08:25.7  265.244542 -28.140472    0.14177   1.28542  F        4.5186140  0          0          0          I     OGLE-BLG-CEP-065  -                 -                 BLG676.29.15665   -              -        -                   -         -                    -               
+OGLE-IV              OGLE-BLG-CEP-078          17:51:18.09  -29:24:03.7  267.825375 -29.401028    0.24164  -1.30227  1O2O     0          0.3247108  0.2566149  0          I     OGLE-BLG-CEP-078  -                 BLG194.3.4111     BLG501.30.36009   -              -        -                   -         -                    -               
+OGLE-III             OGLE-BLG-CEP-018          17:56:38.69  -30:08:30.0  269.161208 -30.141667    0.18909  -2.67713  F        2.8467837  0          0          0          I     OGLE-BLG-CEP-018  -                 BLG103.2.128592   -                 -              -        -                   -         -                    -               
+GCVS                 V_____Car                 08:28:43.69  -60:07:21.3  127.182042 -60.122583  275.24955 -12.28525  F        6.6967453  0          0          0          BV    -                 -                 -                 -                 082844-6007.3  -        -                   V_Car     5302258008774271488  -               
+OGLE-IV              OGLE-BLG-CEP-098          18:13:31.14  -31:49:26.8  273.379750 -31.824111    0.47060  -6.65564  F1O      0.6706528  0.4937082  0          0          I     OGLE-BLG-CEP-098  -                 -                 BLG546.31.24020   -              -        -                   -         -                    -               
+
+...to be continued... 
+(update will occur July 2019)
+
+
+#
+#
+#
+#
+# Source               References      
+#
+# 2MASS                Quillen, A. C., et al. 2014, MNRAS, 441, 2691
+# ASAS                 Pojmanski, G. 1998, Acta Astronomica, 48, 35
+#                      Pojmanski, G. 2002, Acta Astronomica, 52, 397
+#                      Pojmanski, G. 2003, Acta Astronomica, 53, 341
+#                      Pojmanski, G., and Maciejewski, G. 2004, Acta Astronomica, 54, 153
+#                      Pojmanski, G., and Maciejewski, G. 2005, Acta Astronomica, 55, 97
+#                      Pojmanski, G., Pilecki, B., and Szczygiel, D. M. 2005, Acta Astronomica, 55, 275
+# ASAS-SN              Shappee, B. J., et al. 2014, ApJ, 788, 48
+#                      Kochanek, C. S., et al. 2017, PASP, 129, 104502
+#                      Jayasinghe, T., et al. 2018, MNRAS, 477, 3145
+#                      Jayasinghe, T., et al. 2019, MNRAS, 486, 1907
+# ATLAS                Tonry, J.L., et al. 2018, PASP, 130, 064505
+# Bajer2018            Bajer, M. 2018, Variable Star Index
+# Benko+2007           Benko, J.M., and Csubry Z. 2007, Acta Astronomica, 57, 73
+# Caron+2013           Caron, J., and Kugel, F. 2013, Dauban survey, http://www.aspylib.com/newsurvey/
+# Clark+2015           Clark, J. S. 2015, A&A, 584, L12
+# CoRoT                Poretti, E., et al. 2015, MNRAS, 454, 849
+# CSS                  Drake, A. J., et al. 2014, ApJS, 213, 9
+# Ditkovsky2015        Ditkovsky, A. 2015, Variable Star Index
+# EROS2-GSA            Derue, F., et al. 2002, A&A, 389, 149
+# FalconQuintana2017   Falcon Quintana, J. 2017, Variable Star Index
+# GAIA                 Gaia Collaboration et al. 2018, A&A, 616, 1
+# GCVS                 Samus, N., et al. 2017, Astronomy Reports, 61, 80
+# Hummerich2013        Hummerich, S. 2013, Variable Star Index
+# Hummerich+2014       Hummerich, S., and Bernhard, K. 2014, BAV Rundbrief 2014/1, 18
+# Jansen2009           Jansen, R. 2009, Variable Star Index
+# Kabath+2009          Kabath, P., et al. 2009, AJ, 137, 3911
+# Khruslov+2016        Khruslov, A. V., and Kusakin, A. V. 2016, arXiv:1605.01313
+# Lohr+2018            Lohr, M. E. et al. 2018, MNRAS, 478, 3825
+# Matsunaga+2011       Matsunaga, N., et al. 2011, Nature, 477, 188
+# Matsunaga+2015       Matsunaga, N., et al. 2015, ApJ, 799, 46
+# Matsunaga+2016       Matsunaga, N., et al. 2016, MNRAS, 462, 414
+# OGLE-III             Soszynski, I., et al. 2011, Acta Astronomica, 61, 285
+#                      Pietrukowicz, P., et al. 2013, Acta Astronomica, 63, 379
+# OGLE-IV              Soszynski, I., et al. 2017, Acta Astronomica, 67, 297
+#                      Udalski, A., et al. 2018, Acta Astronomica, 68, 315
+# Prokopovich+2011     Prokopovich, A. 2011, Variable Star Index
+# Sergey+15            Sergey, I., Otero, S., and Dubrovski S., 2015, Variable Star Index
+# Shaw+2016            Shaw, J. S., et al. 2016, https://www.physast.uga.edu/~jss/nsvs/
+# Tanioka+2017         Tanioka, S., et al. 2017, ApJ, 842, 104
+# Tsehmeystrenko2013   Tsehmeystrenko, V. 2013, Variable Star Index
+# Turner+2009          Turner, D. G., et al. 2009, AAS 213, 433.06
+# VVV                  Dekany, I., et al. 2015, ApJL, 799, L11
+#                      Dekany, I., et al. 2015, ApJL, 812, L29
+# WISE                 Chen, X., et al. 2018, ApJS, 237, 28
+# Yoshida+2012         Yoshida, S., et al. 2012, MISAO project, http://www.aerith.net/misao/data/misv.cgi?1348
+# 
+# 
