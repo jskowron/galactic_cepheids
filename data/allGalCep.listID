@@ -1,4 +1,4 @@
-#Source              Name                      RA(2000.0)   Dec(2000.0)  RA[deg]    Dec[deg]    l[deg]    b[deg]     Mode(s)  P_F[day]   P_1O[day]  P_2O[day]  P_3O[day]  Bands OGLE              OGLE-II           OGLE-III          OGLE-IV           ASAS           ASAS-SN  ATLAS               AAVSO     GAIA DR2             WISE            
+#Source              Name                      RA(2000.0)   Dec(2000.0)  RA[deg]    Dec[deg]    l[deg]    b[deg]     Mode(s)  P_F[day]   P_1O[day]  P_2O[day]  P_3O[day]  Bands OGLE              OGLE-II           OGLE-III          OGLE-IV           ASAS           ASAS-SN  ATLAS               AAVSO     GaiaDR2              WISE            
 #**************************************************************************************************************************************************************************************************************************************************************************************************************************************************
 OGLE-IV              OGLE-BLG-CEP-058          17:38:40.33  -27:23:42.7  264.668042 -27.395194    0.50243   2.11348  1O       0          4.4882058  0          0          I     OGLE-BLG-CEP-058  -                 -                 BLG675.15.135475  -              -        -                   -         -                    -               
 OGLE-IV              OGLE-BLG-CEP-059          17:38:58.04  -27:34:32.6  264.741833 -27.575722    0.38447   1.96189  1O2O     0          0.3494682  0.2764790  0          I     OGLE-BLG-CEP-059  -                 -                 BLG675.15.42211   -              -        -                   -         -                    -               
@@ -41,7 +41,7 @@ OGLE-IV              OGLE-BLG-CEP-098          18:13:31.14  -31:49:26.8  273.379
 # Ditkovsky2015        Ditkovsky, A. 2015, Variable Star Index
 # EROS2-GSA            Derue, F., et al. 2002, A&A, 389, 149
 # FalconQuintana2017   Falcon Quintana, J. 2017, Variable Star Index
-# GAIA                 Gaia Collaboration et al. 2018, A&A, 616, 1
+# Gaia                 Gaia Collaboration et al. 2018, A&A, 616, 1
 # GCVS                 Samus, N., et al. 2017, Astronomy Reports, 61, 80
 # Hummerich2013        Hummerich, S. 2013, Variable Star Index
 # Hummerich+2014       Hummerich, S., and Bernhard, K. 2014, BAV Rundbrief 2014/1, 18
