@@ -30,12 +30,12 @@ def rotate(t, distG_init, phi_init, vel_r_pecu, vel_phi_pecu):
     Returns:
       distG, phi - new, evolved galactocentric distance and azimuth
   '''
-  step = 2 # Myr
+  step = 2.0 # Myr
   if isinstance(distG_init, ndarray) and isinstance(phi_init, ndarray):
     distG, phi = distG_init.copy(), phi_init.copy()
   else:
     distG, phi = distG_init, phi_init
-  times = linspace(0, abs(t), num=ceil(abs(t)/step), endpoint=True) * sign(t)
+  times = linspace(0, abs(t), num=max(2, int(ceil(abs(t)/step))), endpoint=True) * sign(t)
 
   delta_times = (times[1:] - times[:-1])
   for dt in delta_times:
